@@ -1,0 +1,43 @@
+.card{
+    background-color:lightgrey;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin-bottom: 25px;
+
+
+}
+.id{
+height:200px;
+width: 300px;
+background-color: red;
+border-radius: 20px;
+
+}
+.name{
+    background-color: white;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Allison', cursive;
+
+}
+h1{
+ font-size:60px;
+ height: 60px;
+ text-align-last: center;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+ font-weight:700;
+}
+h2{
+ font-size: 30px;
+ height: 30px;
+ text-align-last: center;
+ color:white;
+ font-family: 'Roboto', sans-serif;
+}
+.whitespace{
+    height: 25px;
+    background-color: white;
+}
