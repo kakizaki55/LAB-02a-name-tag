@@ -9,15 +9,59 @@
     <title>Name tag</title>
 </head>
 <body>
+
+    <section>
+        <label for="name-input"> name:
+            <input id="new-Name" type="text">
+        </label>
+        <button id= "update">Update Name</button>
+    </section>
+
+    <label for="pronoun"> pronouns:
+        <select name="pronoun" id="pronoun">
+            <option value="he/him">(he/him)</option>
+            <option value="she/her">(she/her)</option>
+            <option value="they/them">(they/them)</option>
+            <option value="non-binary">(non-binary)</option>
+        </select>
+        <button id="updatePronoun">Update Pronoun</button>
+    </label>
+    <br>
+
+    <label for="font">font: 
+        <select name="font" id="font">
+            <option value="'Roboto', sans-serif"> Roboto </option>
+            <option value="'American Typewriter, serif"> American Typewriter, serif </option>
+            </select>
+        <button type="button"> Update Font </button>
+    </label>
+
+
+
+
+
+    <section>
+        <label for="color">
+           <button id="green">green</button>
+           <button id="pink">pink</button>
+           <button id="blue">blue</button>
+           <button id="red">red</button>
+
+         </label>
+    </section>
+
 <div class="card"> 
 
-    <div class="id">
+    <div id= "id" class="id">
         <h1>HELLO</h1>
         <h2> my name is</h2>
         <div class= "whitespace"></div>
-        <div class= "name">minoka</div>
+        <div id="name" class= "name">tom</div>
+        <div id="selectedPronoun">(pro noun)</div>
     </div>
 </div> 
+
+<script src="app.js" type="module"></script>
     
 </body>
 </html>

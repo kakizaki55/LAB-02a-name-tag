@@ -41,3 +41,8 @@ h2{
     height: 25px;
     background-color: white;
 }
+#selectedPronoun{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: right;
+}
